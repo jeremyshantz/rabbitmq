@@ -10,6 +10,9 @@ namespace Client
     {
         static void Main(string[] args)
         {
+            Console.Title = "C#_EasyNetQ";
+
+            new Client("localhost", "..\\images\\output\\").Run();
         }
     }
 }
